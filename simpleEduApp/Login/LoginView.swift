@@ -38,7 +38,7 @@ struct LoginView: View {
                 
                 VStack(alignment: .leading) {
                     NavigationLink(
-                        destination: /*@START_MENU_TOKEN@*/Text("Destination")/*@END_MENU_TOKEN@*/,
+                        destination: /*@START_MENU_TOKEN@*/Text("Destination")/*@END_MENU_TOKEN@*/, 
                         isActive: $isActiveLupaKataSandi,
                         label: {
                             Text("Lupa kata sandi ?")
