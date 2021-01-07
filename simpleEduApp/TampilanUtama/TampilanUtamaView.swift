@@ -10,23 +10,30 @@ import SwiftUI
 struct TampilanUtamaView: View {
     
     @State var isActiveDaftarView: Bool = false
+    @State var isActiveLoginView: Bool = false
     
     var body: some View {
         NavigationView{
             VStack{
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
-                    Text("Daftar")
-                        .fontWeight(.bold)
-                })
-                .buttonStyle(ButtonPrimary())
+                NavigationLink(
+                    destination: DaftarView(),
+                    isActive: $isActiveDaftarView,
+                    label:{
+                        Button(action: {
+                            isActiveDaftarView = true
+                        }, label: {
+                            Text("Daftar")
+                                .fontWeight(.bold)
+                        })
+                        .buttonStyle(ButtonPrimary())
+                    })
+                    .padding(.bottom)
                 
-                
-
                 HStack {
-                    Text("Sudah punya akun ?")
+                    Text("Sudah punya akun?")
                     NavigationLink(
-                        destination: DaftarView(),
-                        isActive: $isActiveDaftarView,
+                        destination: LoginView(),
+                        isActive: $isActiveLoginView,
                         label: {
                             Text("Masuk")
                                 .foregroundColor(Color("green"))
@@ -36,6 +43,8 @@ struct TampilanUtamaView: View {
                 .padding(.bottom)
             }.padding(.horizontal)
             .frame(maxHeight: .infinity, alignment: .bottom)
+            
+            
         }
         
     }

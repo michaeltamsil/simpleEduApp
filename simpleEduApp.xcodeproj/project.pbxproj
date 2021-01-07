@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A911E2D725A6CBDE004C193F /* ButtonPrimary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A911E2D625A6CBDE004C193F /* ButtonPrimary.swift */; };
+		A911E2DF25A6E181004C193F /* LabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A911E2DE25A6E181004C193F /* LabelStyle.swift */; };
+		A911E2E725A6E9C9004C193F /* ButtonDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = A911E2E625A6E9C9004C193F /* ButtonDefault.swift */; };
 		A97088A525A6262F008B3A90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97088A425A6262F008B3A90 /* AppDelegate.swift */; };
 		A97088A725A6262F008B3A90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97088A625A6262F008B3A90 /* SceneDelegate.swift */; };
 		A97088A925A6262F008B3A90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97088A825A6262F008B3A90 /* ContentView.swift */; };
@@ -41,6 +43,8 @@
 
 /* Begin PBXFileReference section */
 		A911E2D625A6CBDE004C193F /* ButtonPrimary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonPrimary.swift; sourceTree = "<group>"; };
+		A911E2DE25A6E181004C193F /* LabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelStyle.swift; sourceTree = "<group>"; };
+		A911E2E625A6E9C9004C193F /* ButtonDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDefault.swift; sourceTree = "<group>"; };
 		A97088A125A6262F008B3A90 /* simpleEduApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simpleEduApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A97088A425A6262F008B3A90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A97088A625A6262F008B3A90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,7 +93,9 @@
 		A911E2D525A6CBBC004C193F /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				A911E2E625A6E9C9004C193F /* ButtonDefault.swift */,
 				A911E2D625A6CBDE004C193F /* ButtonPrimary.swift */,
+				A911E2DE25A6E181004C193F /* LabelStyle.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -117,10 +123,9 @@
 		A97088A325A6262F008B3A90 /* simpleEduApp */ = {
 			isa = PBXGroup;
 			children = (
-				A911E2D525A6CBBC004C193F /* Utilities */,
-				A9E8909725A6A88300091BED /* LupaKataSandi */,
-				A9E8908825A69DF600091BED /* Login */,
 				A9E8908725A69DCF00091BED /* Daftar */,
+				A9E8908825A69DF600091BED /* Login */,
+				A9E8909725A6A88300091BED /* LupaKataSandi */,
 				A970890425A6274D008B3A90 /* TampilanUtama */,
 				A97088A425A6262F008B3A90 /* AppDelegate.swift */,
 				A97088A625A6262F008B3A90 /* SceneDelegate.swift */,
@@ -128,6 +133,7 @@
 				A97088AA25A6262F008B3A90 /* Assets.xcassets */,
 				A97088AF25A6262F008B3A90 /* LaunchScreen.storyboard */,
 				A97088B225A6262F008B3A90 /* Info.plist */,
+				A911E2D525A6CBBC004C193F /* Utilities */,
 				A97088AC25A6262F008B3A90 /* Preview Content */,
 			);
 			path = simpleEduApp;
@@ -328,6 +334,8 @@
 				A97088A925A6262F008B3A90 /* ContentView.swift in Sources */,
 				A9E8908A25A69E0900091BED /* DaftarView.swift in Sources */,
 				A911E2D725A6CBDE004C193F /* ButtonPrimary.swift in Sources */,
+				A911E2E725A6E9C9004C193F /* ButtonDefault.swift in Sources */,
+				A911E2DF25A6E181004C193F /* LabelStyle.swift in Sources */,
 				A970890625A6276F008B3A90 /* TampilanUtamaView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
