@@ -10,6 +10,11 @@
 		A911E2D725A6CBDE004C193F /* ButtonPrimary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A911E2D625A6CBDE004C193F /* ButtonPrimary.swift */; };
 		A911E2DF25A6E181004C193F /* LabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A911E2DE25A6E181004C193F /* LabelStyle.swift */; };
 		A911E2E725A6E9C9004C193F /* ButtonDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = A911E2E625A6E9C9004C193F /* ButtonDefault.swift */; };
+		A911E2FA25A70C09004C193F /* KontenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A911E2F925A70C09004C193F /* KontenView.swift */; };
+		A911E32225A7133A004C193F /* KontenKelasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A911E32125A7133A004C193F /* KontenKelasView.swift */; };
+		A911E32A25A71349004C193F /* KontenBerandaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A911E32925A71349004C193F /* KontenBerandaView.swift */; };
+		A911E33A25A71383004C193F /* KontenLainnyaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A911E33925A71383004C193F /* KontenLainnyaView.swift */; };
+		A911E33F25A72D41004C193F /* KontenBerandaItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A911E33E25A72D41004C193F /* KontenBerandaItemView.swift */; };
 		A97088A525A6262F008B3A90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97088A425A6262F008B3A90 /* AppDelegate.swift */; };
 		A97088A725A6262F008B3A90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97088A625A6262F008B3A90 /* SceneDelegate.swift */; };
 		A97088A925A6262F008B3A90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97088A825A6262F008B3A90 /* ContentView.swift */; };
@@ -45,6 +50,11 @@
 		A911E2D625A6CBDE004C193F /* ButtonPrimary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonPrimary.swift; sourceTree = "<group>"; };
 		A911E2DE25A6E181004C193F /* LabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelStyle.swift; sourceTree = "<group>"; };
 		A911E2E625A6E9C9004C193F /* ButtonDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDefault.swift; sourceTree = "<group>"; };
+		A911E2F925A70C09004C193F /* KontenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KontenView.swift; sourceTree = "<group>"; };
+		A911E32125A7133A004C193F /* KontenKelasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KontenKelasView.swift; sourceTree = "<group>"; };
+		A911E32925A71349004C193F /* KontenBerandaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KontenBerandaView.swift; sourceTree = "<group>"; };
+		A911E33925A71383004C193F /* KontenLainnyaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KontenLainnyaView.swift; sourceTree = "<group>"; };
+		A911E33E25A72D41004C193F /* KontenBerandaItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KontenBerandaItemView.swift; sourceTree = "<group>"; };
 		A97088A125A6262F008B3A90 /* simpleEduApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simpleEduApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A97088A425A6262F008B3A90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A97088A625A6262F008B3A90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +110,42 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		A911E2EE25A709CB004C193F /* Beranda */ = {
+			isa = PBXGroup;
+			children = (
+				A911E32925A71349004C193F /* KontenBerandaView.swift */,
+				A911E33E25A72D41004C193F /* KontenBerandaItemView.swift */,
+			);
+			path = Beranda;
+			sourceTree = "<group>";
+		};
+		A911E2F825A70BF7004C193F /* Konten */ = {
+			isa = PBXGroup;
+			children = (
+				A911E2EE25A709CB004C193F /* Beranda */,
+				A911E30725A70C43004C193F /* Kelas */,
+				A911E31525A712B6004C193F /* Lainnya */,
+				A911E2F925A70C09004C193F /* KontenView.swift */,
+			);
+			path = Konten;
+			sourceTree = "<group>";
+		};
+		A911E30725A70C43004C193F /* Kelas */ = {
+			isa = PBXGroup;
+			children = (
+				A911E32125A7133A004C193F /* KontenKelasView.swift */,
+			);
+			path = Kelas;
+			sourceTree = "<group>";
+		};
+		A911E31525A712B6004C193F /* Lainnya */ = {
+			isa = PBXGroup;
+			children = (
+				A911E33925A71383004C193F /* KontenLainnyaView.swift */,
+			);
+			path = Lainnya;
+			sourceTree = "<group>";
+		};
 		A970889825A6262F008B3A90 = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				A9E8908725A69DCF00091BED /* Daftar */,
+				A911E2F825A70BF7004C193F /* Konten */,
 				A9E8908825A69DF600091BED /* Login */,
 				A9E8909725A6A88300091BED /* LupaKataSandi */,
 				A970890425A6274D008B3A90 /* TampilanUtama */,
@@ -328,10 +375,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9E8909925A6A89200091BED /* LupaKataSandi.swift in Sources */,
+				A911E2FA25A70C09004C193F /* KontenView.swift in Sources */,
+				A911E33F25A72D41004C193F /* KontenBerandaItemView.swift in Sources */,
+				A911E32225A7133A004C193F /* KontenKelasView.swift in Sources */,
 				A9E8909225A69E1100091BED /* LoginView.swift in Sources */,
 				A97088A525A6262F008B3A90 /* AppDelegate.swift in Sources */,
 				A97088A725A6262F008B3A90 /* SceneDelegate.swift in Sources */,
+				A911E33A25A71383004C193F /* KontenLainnyaView.swift in Sources */,
 				A97088A925A6262F008B3A90 /* ContentView.swift in Sources */,
+				A911E32A25A71349004C193F /* KontenBerandaView.swift in Sources */,
 				A9E8908A25A69E0900091BED /* DaftarView.swift in Sources */,
 				A911E2D725A6CBDE004C193F /* ButtonPrimary.swift in Sources */,
 				A911E2E725A6E9C9004C193F /* ButtonDefault.swift in Sources */,
