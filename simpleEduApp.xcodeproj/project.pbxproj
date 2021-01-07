@@ -15,6 +15,9 @@
 		A97088B125A6262F008B3A90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A97088AF25A6262F008B3A90 /* LaunchScreen.storyboard */; };
 		A97088BC25A62630008B3A90 /* simpleEduAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97088BB25A62630008B3A90 /* simpleEduAppTests.swift */; };
 		A97088C725A62630008B3A90 /* simpleEduAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97088C625A62630008B3A90 /* simpleEduAppUITests.swift */; };
+		A970890625A6276F008B3A90 /* TampilanUtamaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A970890525A6276F008B3A90 /* TampilanUtamaView.swift */; };
+		A9E8908A25A69E0900091BED /* DaftarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E8908925A69E0900091BED /* DaftarView.swift */; };
+		A9E8909225A69E1100091BED /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E8909125A69E1100091BED /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		A97088C225A62630008B3A90 /* simpleEduAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simpleEduAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A97088C625A62630008B3A90 /* simpleEduAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simpleEduAppUITests.swift; sourceTree = "<group>"; };
 		A97088C825A62630008B3A90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A970890525A6276F008B3A90 /* TampilanUtamaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TampilanUtamaView.swift; sourceTree = "<group>"; };
+		A9E8908925A69E0900091BED /* DaftarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaftarView.swift; sourceTree = "<group>"; };
+		A9E8909125A69E1100091BED /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 		A97088A325A6262F008B3A90 /* simpleEduApp */ = {
 			isa = PBXGroup;
 			children = (
+				A9E8908825A69DF600091BED /* Login */,
+				A9E8908725A69DCF00091BED /* Daftar */,
+				A970890425A6274D008B3A90 /* TampilanUtama */,
 				A97088A425A6262F008B3A90 /* AppDelegate.swift */,
 				A97088A625A6262F008B3A90 /* SceneDelegate.swift */,
 				A97088A825A6262F008B3A90 /* ContentView.swift */,
@@ -134,6 +143,30 @@
 				A97088C825A62630008B3A90 /* Info.plist */,
 			);
 			path = simpleEduAppUITests;
+			sourceTree = "<group>";
+		};
+		A970890425A6274D008B3A90 /* TampilanUtama */ = {
+			isa = PBXGroup;
+			children = (
+				A970890525A6276F008B3A90 /* TampilanUtamaView.swift */,
+			);
+			path = TampilanUtama;
+			sourceTree = "<group>";
+		};
+		A9E8908725A69DCF00091BED /* Daftar */ = {
+			isa = PBXGroup;
+			children = (
+				A9E8908925A69E0900091BED /* DaftarView.swift */,
+			);
+			path = Daftar;
+			sourceTree = "<group>";
+		};
+		A9E8908825A69DF600091BED /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A9E8909125A69E1100091BED /* LoginView.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,9 +299,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9E8909225A69E1100091BED /* LoginView.swift in Sources */,
 				A97088A525A6262F008B3A90 /* AppDelegate.swift in Sources */,
 				A97088A725A6262F008B3A90 /* SceneDelegate.swift in Sources */,
 				A97088A925A6262F008B3A90 /* ContentView.swift in Sources */,
+				A9E8908A25A69E0900091BED /* DaftarView.swift in Sources */,
+				A970890625A6276F008B3A90 /* TampilanUtamaView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
