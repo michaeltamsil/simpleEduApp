@@ -14,16 +14,14 @@ struct TampilanUtamaView: View {
     var body: some View {
         NavigationView{
             VStack{
-                Spacer()
-                Button("Daftar"){
-                    
-                }.foregroundColor(.white)
-                .frame(maxWidth: .infinity)
-                .padding()
-                .background(Color("green"))
-                .cornerRadius(10)
-                .padding()
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                    Text("Daftar")
+                        .fontWeight(.bold)
+                })
+                .buttonStyle(ButtonPrimary())
                 
+                
+
                 HStack {
                     Text("Sudah punya akun ?")
                     NavigationLink(
@@ -36,7 +34,8 @@ struct TampilanUtamaView: View {
                     
                 }
                 .padding(.bottom)
-            }
+            }.padding(.horizontal)
+            .frame(maxHeight: .infinity, alignment: .bottom)
         }
         
     }

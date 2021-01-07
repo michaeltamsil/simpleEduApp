@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A911E2D725A6CBDE004C193F /* ButtonPrimary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A911E2D625A6CBDE004C193F /* ButtonPrimary.swift */; };
 		A97088A525A6262F008B3A90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97088A425A6262F008B3A90 /* AppDelegate.swift */; };
 		A97088A725A6262F008B3A90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97088A625A6262F008B3A90 /* SceneDelegate.swift */; };
 		A97088A925A6262F008B3A90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97088A825A6262F008B3A90 /* ContentView.swift */; };
@@ -18,6 +19,7 @@
 		A970890625A6276F008B3A90 /* TampilanUtamaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A970890525A6276F008B3A90 /* TampilanUtamaView.swift */; };
 		A9E8908A25A69E0900091BED /* DaftarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E8908925A69E0900091BED /* DaftarView.swift */; };
 		A9E8909225A69E1100091BED /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E8909125A69E1100091BED /* LoginView.swift */; };
+		A9E8909925A6A89200091BED /* LupaKataSandi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E8909825A6A89200091BED /* LupaKataSandi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A911E2D625A6CBDE004C193F /* ButtonPrimary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonPrimary.swift; sourceTree = "<group>"; };
 		A97088A125A6262F008B3A90 /* simpleEduApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simpleEduApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A97088A425A6262F008B3A90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A97088A625A6262F008B3A90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +58,7 @@
 		A970890525A6276F008B3A90 /* TampilanUtamaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TampilanUtamaView.swift; sourceTree = "<group>"; };
 		A9E8908925A69E0900091BED /* DaftarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaftarView.swift; sourceTree = "<group>"; };
 		A9E8909125A69E1100091BED /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A9E8909825A6A89200091BED /* LupaKataSandi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LupaKataSandi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A911E2D525A6CBBC004C193F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A911E2D625A6CBDE004C193F /* ButtonPrimary.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		A970889825A6262F008B3A90 = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +117,8 @@
 		A97088A325A6262F008B3A90 /* simpleEduApp */ = {
 			isa = PBXGroup;
 			children = (
+				A911E2D525A6CBBC004C193F /* Utilities */,
+				A9E8909725A6A88300091BED /* LupaKataSandi */,
 				A9E8908825A69DF600091BED /* Login */,
 				A9E8908725A69DCF00091BED /* Daftar */,
 				A970890425A6274D008B3A90 /* TampilanUtama */,
@@ -167,6 +181,14 @@
 				A9E8909125A69E1100091BED /* LoginView.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		A9E8909725A6A88300091BED /* LupaKataSandi */ = {
+			isa = PBXGroup;
+			children = (
+				A9E8909825A6A89200091BED /* LupaKataSandi.swift */,
+			);
+			path = LupaKataSandi;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,11 +321,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9E8909925A6A89200091BED /* LupaKataSandi.swift in Sources */,
 				A9E8909225A69E1100091BED /* LoginView.swift in Sources */,
 				A97088A525A6262F008B3A90 /* AppDelegate.swift in Sources */,
 				A97088A725A6262F008B3A90 /* SceneDelegate.swift in Sources */,
 				A97088A925A6262F008B3A90 /* ContentView.swift in Sources */,
 				A9E8908A25A69E0900091BED /* DaftarView.swift in Sources */,
+				A911E2D725A6CBDE004C193F /* ButtonPrimary.swift in Sources */,
 				A970890625A6276F008B3A90 /* TampilanUtamaView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
